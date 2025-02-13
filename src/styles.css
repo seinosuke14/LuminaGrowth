@@ -1,8 +1,32 @@
 *{
-    background-color: #D3D3D3;
+    background-color: #d4d4d4;
 }
 @import "tailwindcss";
 
 :root {
     --color-turquesa:#008080;
 }
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  .typing {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    border-right: 2px solid #000000; /* Simula el cursor */
+    width: 40%;
+    animation: typing 2s steps(30, end) forwards, blink 0.8s  ;
+  }
