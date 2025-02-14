@@ -8,7 +8,7 @@ import { Informacion2Component } from './informacion2/informacion2.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderComponent, HeroComponent, InformationsComponent, DesarrolloPersonalComponent,DesarrolloPersonalComponent,Informacion2Component],
+  imports: [RouterOutlet, HeaderComponent, HeroComponent, InformationsComponent,DesarrolloPersonalComponent,Informacion2Component],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
